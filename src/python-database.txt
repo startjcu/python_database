@@ -1,0 +1,47 @@
+数据库的分类
+    1、关系型数据库
+        MySQL、ORACLE，表结构(类excel)
+    2、非关系型数据库Not Only SQL
+        Redis、mongoDB
+        分类：1、文档型(类json,列不固定,MongoDB)2、key-value型(Redis)
+
+DDL(Data Definition Language)数据定义语句
+    增：create table/database
+    删：drop table/database
+    改：alter table/database
+    查：show databases/tables
+    用：use db_name
+
+DML(Data Manipulation Language)数据操纵语言
+    增：insert
+    删：delete
+    改：update
+    查：select
+
+插入数据
+    INSERT INTO tb_name 
+    (...) 
+    VALUES 
+    (...),
+    ...
+    (...);
+
+删除数据
+    DELETE 
+    FROM tb_name
+    WHERE condition
+
+修改数据
+    UPDATE tb_name
+    SET col_1 = value_1[,...]
+    WHERE condition
+
+查询数据
+    SELETE 
+    select_expression...
+    FROM tb_name
+    [WHERE condition]
+    [GROUP BY ...]
+    [HAVING condition]
+    [ORDER BY ... [DESC]]
+    [LIMIT offset, row_count]

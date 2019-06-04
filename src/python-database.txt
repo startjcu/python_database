@@ -45,3 +45,11 @@ DML(Data Manipulation Language)数据操纵语言
     [HAVING condition]
     [ORDER BY ... [DESC]]
     [LIMIT offset, row_count]
+
+********************************************************************
+
+安装mysqlclient
+    1、pip install mysqlclient
+    2、若1执行失败，去https://www.lfd.uci.edu/~gohlke/pythonlibs/下载对应版本的包
+        版本要和本机安装的python版本一致，python -V查看python安装版本
+        如当前版本为3.6.7,那与之匹配的包版本应为mysqlclient-1.4.2-cp36-cp36m-win32.whl
